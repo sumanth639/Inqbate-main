@@ -2082,7 +2082,7 @@
 }
 .testimonial_section_two {
   position: relative;
-  padding-top: 150px;
+  /* padding-top: 150px; */
   padding-bottom: 150px;
 }
 .testimonial_block_three .inner_box {
@@ -2804,6 +2804,7 @@
   z-index: 1;
   padding: 180px 0px 100px;
   background: #f5f1ff;
+  transform: translateY(-30%);
 }
 .page_breadcrumb_shape_one {
   position: absolute;
