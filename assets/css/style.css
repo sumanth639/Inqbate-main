@@ -1818,7 +1818,7 @@
   animation-delay: 0.9s;
   content: '';
   position: absolute;
-  -webkit-box-shadow: 0 0 0 0 #e770c1;
+  -webkit-box-shadow: 0 0 0 0  #089c54;
   box-shadow: 0 0 0 0 #e770c1;
   -webkit-animation: ripple 3s infinite;
   animation: ripple 3s infinite;
@@ -1954,7 +1954,7 @@
 }
 .team_block_one .team_social_links li a:hover {
   color: #fff;
-  background: linear-gradient(111deg, #e770c1 19.42%, #9f70fd 73.08%);
+  background: linear-gradient(135deg, #694a87, #2d98cc,  #089c54);
 }
 .team_block_one h4 {
   color: #0d0d0d;
@@ -2357,7 +2357,7 @@
 }
 .home_five .app_outer_box {
   border-radius: 10px;
-  background: linear-gradient(135deg, #9f70fd 3.85%, #e871c2 100%);
+  background: linear-gradient(135deg, #694a87, #2d98cc,  #089c54);
 }
 .app_outer_box .shape_one {
   position: absolute;
@@ -2599,7 +2599,7 @@
   letter-spacing: 0.9px;
   margin-bottom: 20px;
   text-transform: uppercase;
-  background: linear-gradient(106deg, #e770c1 11.27%, #9f70fd 88.73%);
+  background: #089c54;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2693,7 +2693,7 @@
 }
 .service_style_one .nav-link.active,
 .service_style_one .nav-link:hover {
-  background: linear-gradient(135deg, #9f70fd 3.85%, #e871c2 100%);
+  background: linear-gradient(135deg, #694a87, #2d98cc,  #089c54);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

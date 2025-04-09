@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Financer - HTML 5 Template Preview</title>
+    <title>Inqbate -Solutions </title>
 
     <link href="assets/css/bootstrap.css" rel="stylesheet">    
     <link href="assets/css/animate.css" rel="stylesheet">  
@@ -120,7 +120,7 @@
                     <nav class="main-menu">
                         <div class="collapse navbar-collapse show" id="navbarSupportedContent">
                             <ul class="navigation">
-                                <li class="dropdown active"><a href="index.html">Home</a>
+                                <li class="dropdown "><a href="index.html">Home</a>
                                     <!-- <ul>
                                         <li><a href="index.html">Home One</a></li>
                                         <li><a href="index-2.html">Home Two</a></li>
@@ -328,30 +328,48 @@
             <div class="tag_text"><h6>Contact Info</h6></div>
             <h2>Contact Information</h2>
         </div>
-        <form action="contact.html" class="contact_form">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact_form">
+            <!-- Web3Forms Access Token -->
+            <input type="hidden" name="access_key" value="990588fc-c8b7-494c-ab44-1e9bde7f8b69" />
+            
+            <!-- Optional: Identify which website it's from -->
+            <input type="hidden" name="website" value="Inqbate Solutions" />
+          
             <div class="row">
-                <div class="col-xl-6 col-md-6 col-sm-12">
-                    <div class="form-group">
-                        <input type="text" name="user" placeholder="Your name">
-                    </div>
+              <div class="col-xl-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <input type="text" name="user" placeholder="Your First Name" required />
                 </div>
-                <div class="col-xl-6 col-md-6 col-sm-12">
-                    <div class="form-group">
-                        <input type="text" name="email" placeholder="Your email">
-                    </div>
+              </div>
+              <div class="col-xl-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <input type="text" name="user" placeholder="Your LastName" required />
                 </div>
-                <div class="col-xl-12 col-md-12 col-sm-12">
-                    <div class="form-group">
-                        <textarea type="message" name="message" placeholder="Type message"></textarea>
-                    </div>
+              </div>
+              <div class="col-xl-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <input type="email" name="email" placeholder="Your email" required />
                 </div>
-                <div class="col-xl-12 col-md-12 col-sm-12">
-                    <div class="form-group centred">
-                        <button type="button" name="button" class="btn_style_one">Send Message</button>
-                    </div>
+              </div>
+              <div class="col-xl-6 col-md-6 col-sm-12">
+                <div class="form-group">
+                  <input type="number" name="phone" placeholder="Your Phone Number" required />
                 </div>
+              </div>
+
+              <div class="col-xl-12 col-md-12 col-sm-12">
+                <div class="form-group">
+                  <textarea name="message" placeholder="Type message" rows="4" required></textarea>
+                </div>
+              </div>
+              <div class="col-xl-12 col-md-12 col-sm-12">
+                <div class="form-group centred">
+                  <button type="submit" class="btn_style_one">Send Message</button>
+                </div>
+              </div>
             </div>
-        </form>
+          </form>
+          
     </div>
 </section>
 <!-- Contact Section End -->

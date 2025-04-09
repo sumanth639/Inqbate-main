@@ -912,7 +912,7 @@ div#mCSB_1_container {
   font-size: 24px;
   z-index: 99;
   color: #fff;
-  background: linear-gradient(267deg, #e770c1 11.27%, #9f70fd 88.73%);
+  background: linear-gradient(135deg, #694a87, #2d98cc, #089c54);
   border: 1px solid var(--theme-color);
   border-radius: 50%;
   text-align: center;

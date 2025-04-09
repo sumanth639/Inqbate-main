@@ -237,7 +237,7 @@ img {
   z-index: 1;
   overflow: hidden;
   background: transparent;
-  border: 1px solid #e871c2;
+  border: 1px solid #089c54;
   transition: all 900ms ease;
   -moz-transition: all 900ms ease;
   -webkit-transition: all 900ms ease;
@@ -246,7 +246,7 @@ img {
 }
 .btn_style_two span {
   border-radius: 60px;
-  background: linear-gradient(106deg, #e770c1 11.27%, #9f70fd 88.73%);
+  background: linear-gradient(135deg, #694a87, #2d98cc, #089c54);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -259,7 +259,7 @@ img {
   height: 0%;
   content: '';
   z-index: -1;
-  background: linear-gradient(106deg, #e770c1 11.27%, #9f70fd 88.73%);
+  background: linear-gradient(135deg, #694a87, #2d98cc, #089c54);
   transition: all 900ms ease;
   -moz-transition: all 900ms ease;
   -webkit-transition: all 900ms ease;
@@ -547,7 +547,7 @@ img {
   -o-transition: all 900ms ease;
 }
 .social-links li a:hover {
-  border-color: #e770c1;
+  border-color: #089c54;
 }
 .social-links li a i {
   font-size: 24px;
