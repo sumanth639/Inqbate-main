@@ -5387,3 +5387,13 @@ h3.widget_title {
   color: #848484;
   cursor: pointer;
 }
+
+input[type="file"].form-control,
+select.form-control {
+  padding: 10px;
+  height: 45px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
