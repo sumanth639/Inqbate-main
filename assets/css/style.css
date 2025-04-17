@@ -2696,7 +2696,7 @@
   background: linear-gradient(135deg, #694a87, #2d98cc,  #089c54);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #089c54;
 }
 .service_style_one .nav-link:before {
   position: absolute;
